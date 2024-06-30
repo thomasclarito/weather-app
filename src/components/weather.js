@@ -12,7 +12,7 @@ const WeatherCard = ({weatherData}) => (
     <div className="main">
         <div className="top">
             <p className="header"> {weatherData.name}</p>
-            <Button className="button" inverted color="blue" onClick={refresh} circular icon='refresh' />
+            <Button className="button" inverted color="whitesmoke" onClick={refresh} circular icon='refresh' />
         </div>
 
         <div className="flex">
